@@ -38,11 +38,19 @@ To then run that executable:
 target/scala-2.11/native-test-out
 ```
 
+This should look like:
+
+![Run](docs/Run.png)
+
 To run tests:
 
 ```
 sbt test
 ```
+
+This should look like:
+
+![Tests](docs/Tests.png)
 
 You can of course use the full functionality of uTest to
 [select which tests to run](https://github.com/lihaoyi/utest#running-tests).

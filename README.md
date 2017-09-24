@@ -35,7 +35,7 @@ sbt nativeLink
 To then run that executable:
 
 ```
-target/scala-2.11/native-test-out
+./target/scala-2.11/scala-native-example-app-out
 ```
 
 This should look like:

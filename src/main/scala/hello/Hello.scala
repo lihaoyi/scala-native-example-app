@@ -12,7 +12,7 @@ object Hello {
       h1(color := "red")(titleString),
       div(backgroundColor := "blue")(
         para(0, cls := "contentpara first", firstParaString),
-        a(href := "www.google.com")(p("Goooogle")),
+        a(href := "https://www.google.com")(p("Goooogle")),
         for (i <- 0 until 5) yield para(i,
           cls := "contentpara",
           color := (if (i % 2 == 0) "red" else "green"),

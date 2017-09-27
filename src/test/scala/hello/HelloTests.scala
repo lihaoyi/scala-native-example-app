@@ -9,7 +9,7 @@ object HelloTests extends TestSuite{
         assert(head.contains("console"))
       }
       'log - {
-        assert(head.contains("log()"))
+        assert(head.contains("log(1)"))
       }
     }
     'rest - {

@@ -27,7 +27,7 @@ object ExampleTests extends TestSuite{
            |"name": "Bob",
            |"welcome": "Hello Bob!"
            |}
-           |}""".stripMargin
+           |}""".stripMargin.replaceAll("\r\n", "\n")
       )
     }
     test("indent2"){
@@ -45,7 +45,7 @@ object ExampleTests extends TestSuite{
           |    "name": "Bob",
           |    "welcome": "Hello Bob!"
           |  }
-          |}""".stripMargin
+              |}""".stripMargin.replaceAll("\r\n", "\n")
       )
     }
   }
